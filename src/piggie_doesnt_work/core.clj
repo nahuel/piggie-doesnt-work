@@ -4,7 +4,7 @@
 
             [clojure.tools.nrepl.server :as nrepl]
             [cemerick.piggieback        :as piggie]
-            complete.core   ;; for nrepl completion
+            ;; complete.core   ;; for nrepl completion
             ))
 
 (defn start-nrepl-server []

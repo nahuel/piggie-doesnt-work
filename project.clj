@@ -7,14 +7,11 @@
 
 
                  [com.cemerick/piggieback "0.0.2"]
-                 [clojure-complete "0.2.2" :exclusions [org.clojure/clojure]]
+                 ;; [clojure-complete "0.2.2" :exclusions [org.clojure/clojure]]
                  ]
 
-  ;;:injections [(println 2) (require 'cljs.repl) (require 'cemerick.piggieback) (println (/ 3 0))]
   :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]
                  :port 5050}
-
-
 
   :main piggie-doesnt-work.core
   )
